@@ -21,7 +21,7 @@ public class ModItems {
                     () -> new ItemStack(ModItems.ROCKET_HANDS.get()) // Icon
             )
     );
-
+//在这里添加物品
     public static final RegistrySupplier<Item> ROCKET_HANDS = ITEMS.register("rocket_hands", () ->
             new RocketHands(new Item.Properties().arch$tab(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> MAGIC_MISSILE = ITEMS.register("magic_missile", () ->
@@ -32,5 +32,8 @@ public class ModItems {
             new KeyboardInatorItem(new Item.Properties().stacksTo(1).arch$tab(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> DEBUG_INFO = ITEMS.register("debug_info", () ->
             new DebugInfoItem(new Item.Properties().stacksTo(1).arch$tab(CREATIVE_TAB)));
+
+    public static final RegistrySupplier<Item> FLAME_SHOOTER_ITEM = ITEMS.register("flame_shooter_item", () ->
+            new FlameShooterItem(new Item.Properties().arch$tab(CREATIVE_TAB)));
 
 }

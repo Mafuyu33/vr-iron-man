@@ -14,6 +14,7 @@
   "item.mc_vr_playground.rocket_hands": "Rocket Hands",
   "item.mc_vr_playground.keyboardinator": "Keyboard-inator",
   "item.mc_vr_playground.debug_info": "Debug Info",
+  "item.mc_vr_playground.flame_shooter_item": "FlameShooterItem",
   "item.mc_vr_playground.debug_info.server_title": "Server Data",
   "item.mc_vr_playground.debug_info.client_title": "Client Data",
   "item.mc_vr_playground.debug_info.not_in_vr": "Server thinks you are not in VR."
