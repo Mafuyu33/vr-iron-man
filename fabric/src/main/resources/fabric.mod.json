@@ -16,10 +16,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.hammy275.mcvrplayground.MCVRPlaygroundFabric"
+      "com.mafuyu33.mcvrplayground.MCVRPlaygroundFabric"
     ],
     "client": [
-      "com.hammy275.mcvrplayground.MCVRPlaygroundClientFabric"
+      "com.mafuyu33.mcvrplayground.MCVRPlaygroundClientFabric"
     ]
   },
   "depends": {
