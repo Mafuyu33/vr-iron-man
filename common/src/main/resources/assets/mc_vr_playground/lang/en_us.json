@@ -17,5 +17,11 @@
   "item.mc_vr_playground.flame_shooter_item": "FlameShooterItem",
   "item.mc_vr_playground.debug_info.server_title": "Server Data",
   "item.mc_vr_playground.debug_info.client_title": "Client Data",
-  "item.mc_vr_playground.debug_info.not_in_vr": "Server thinks you are not in VR."
+  "item.mc_vr_playground.debug_info.not_in_vr": "Server thinks you are not in VR.",
+
+  "item.mc_vr_playground.sapphire": "Sapphire",
+  "item.mc_vr_playground.sapphire_helmet": "Sapphire Helmet",
+  "item.mc_vr_playground.sapphire_chestplate": "Sapphire Chestplate",
+  "item.mc_vr_playground.sapphire_leggings": "Sapphire Leggings",
+  "item.mc_vr_playground.sapphire_boots": "Sapphire Boots"
 }
