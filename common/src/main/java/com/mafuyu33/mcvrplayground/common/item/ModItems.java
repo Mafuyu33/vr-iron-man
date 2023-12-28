@@ -24,7 +24,7 @@ public class ModItems {
     );
 //在这里添加物品
     public static final RegistrySupplier<Item> SAPPHIRE = ITEMS.register("sapphire", () ->
-        new Item(new Item.Properties()));
+        new Item(new Item.Properties().arch$tab(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> ROCKET_HANDS = ITEMS.register("rocket_hands", () ->
             new RocketHands(new Item.Properties().arch$tab(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> MAGIC_MISSILE = ITEMS.register("magic_missile", () ->
@@ -41,12 +41,12 @@ public class ModItems {
 
 
     public static final RegistrySupplier<Item> SAPPHIRE_HELMET = ITEMS.register("sapphire_helmet",
-            () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.HELMET, new Item.Properties()));
+            () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.HELMET, new Item.Properties().arch$tab(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> SAPPHIRE_CHESTPLATE = ITEMS.register("sapphire_chestplate",
-            () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+            () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.CHESTPLATE, new Item.Properties().arch$tab(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> SAPPHIRE_LEGGINGS = ITEMS.register("sapphire_leggings",
-            () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+            () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.LEGGINGS, new Item.Properties().arch$tab(CREATIVE_TAB)));
     public static final RegistrySupplier<Item> SAPPHIRE_BOOTS = ITEMS.register("sapphire_boots",
-            () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.BOOTS, new Item.Properties()));
+            () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.BOOTS, new Item.Properties().arch$tab(CREATIVE_TAB)));
 
 }
