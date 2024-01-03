@@ -42,7 +42,7 @@ public class HistoryVisualizerClientTick {
                         entryPos.x(), entryPos.y(), entryPos.z(),
                         0, 0, 0
                 ); // Add a particle there
-            }
+            } 
         }
     }
 }

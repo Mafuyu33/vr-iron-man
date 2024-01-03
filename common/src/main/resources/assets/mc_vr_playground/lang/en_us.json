@@ -1,10 +1,12 @@
 {
   "message.mc_vr_playground.not_in_vr": "You must be in VR to use this!",
+  "message.mc_vr_playground.need_ironman_armor": "You need iron man armor!",
 
   "category.mc_vr_playground": "MC VR Playground",
 
   "entity.mc_vr_playground.magic_missile": "Magic Missile",
 
+  "item.rocket_hands.durability":"Fuels",
   "item.mc_vr_playground.history_visualizer": "History Visualizer",
   "item.mc_vr_playground.history_visualizer.right_click": "Use this item to change which device is visualized.",
   "item.mc_vr_playground.history_visualizer.visualizing.0": "Mode set to controller 0 (the primary controller).",

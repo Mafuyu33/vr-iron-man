@@ -17,7 +17,7 @@ import java.util.Map;
 public class ModArmorItem extends ArmorItem {
     private static final Map<ArmorMaterial, MobEffectInstance> MATERIAL_TO_EFFECT_MAP =
             (new ImmutableMap.Builder<ArmorMaterial, MobEffectInstance>())
-                    .put(ModArmorMaterials.SAPPHIRE, new MobEffectInstance(MobEffects.NIGHT_VISION, 200, 1,
+                    .put(ModArmorMaterials.SAPPHIRE, new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 200, 1,
                             false,false, true)).build();
 
     public ModArmorItem(ArmorMaterial pMaterial, Type pType, Properties pProperties) {
@@ -31,11 +31,13 @@ public class ModArmorItem extends ArmorItem {
                 evaluateArmorEffects(player);
             }
         }
-
         super.inventoryTick(stack, world, entity, slot, selected);
     }
 
-    private void evaluateArmorEffects(Player player) {
+    public boolean isIronManArmorOn() {
+        return false;
+    }
+    public void evaluateArmorEffects(Player player) {
         for (Map.Entry<ArmorMaterial, MobEffectInstance> entry : MATERIAL_TO_EFFECT_MAP.entrySet()) {
             ArmorMaterial mapArmorMaterial = entry.getKey();
             MobEffectInstance mapStatusEffect = entry.getValue();
@@ -55,7 +57,7 @@ public class ModArmorItem extends ArmorItem {
         }
     }
 
-    private boolean hasFullSuitOfArmorOn(Player player) {
+    public boolean hasFullSuitOfArmorOn(Player player) {
         ItemStack boots = player.getInventory().getArmor(0);
         ItemStack leggings = player.getInventory().getArmor(1);
         ItemStack breastplate = player.getInventory().getArmor(2);
@@ -65,7 +67,7 @@ public class ModArmorItem extends ArmorItem {
                 && !leggings.isEmpty() && !boots.isEmpty();
     }
 
-    private boolean hasCorrectArmorOn(ArmorMaterial material, Player player) {
+    public boolean hasCorrectArmorOn(ArmorMaterial material, Player player) {
         for (ItemStack armorStack : player.getInventory().armor) {
             if(!(armorStack.getItem() instanceof ArmorItem)) {
                 return false;
