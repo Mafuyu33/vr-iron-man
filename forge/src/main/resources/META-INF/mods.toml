@@ -4,30 +4,30 @@ loaderVersion = "[45,)"
 license = "MIT License"
 
 [[mods]]
-modId = "mc_vr_playground"
+modId = "vr_iron_man"
 version = "${version}"
-displayName = "MC VR Playground"
-authors = "hammy275"
+displayName = "VR IRON MAN"
+authors = "mafuyu33"
 description = '''
-Demo mod for Vivecraft API
+VR IRON MAN MOD DEPEND ON VR PLAYGROUND
 '''
 #logoFile = ""
 
-[[dependencies.mc_vr_playground]]
+[[dependencies.vr_iron_man]]
 modId = "forge"
 mandatory = true
 versionRange = "[47,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.mc_vr_playground]]
+[[dependencies.vr_iron_man]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.20.1,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.mc_vr_playground]]
+[[dependencies.vr_iron_man]]
 modId = "architectury"
 mandatory = true
 versionRange = "[9.1.12,)"

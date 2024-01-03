@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "id": "mc_vr_playground",
+  "id": "vr_iron_man",
   "version": "${version}",
-  "name": "MC VR Playground",
-  "description": "Demo mod for Vivecraft API",
+  "name": "VR IRON MAN",
+  "description": "VR IRON MAN MOD DEPEND ON VR PLAYGROUND",
   "authors": [
-    "hammy275"
+    "mafuyu33"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
   "license": "MIT License",
-  "icon": "assets/mc_vr_playground/icon.png",
+  "icon": "assets/vr_iron_man/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.mafuyu33.mcvrplayground.MCVRPlaygroundFabric"
+      "com.mafuyu33.vrironman.VRIronManFabric"
     ],
     "client": [
-      "com.mafuyu33.mcvrplayground.MCVRPlaygroundClientFabric"
+      "com.mafuyu33.vrironman.VRIronManClientFabric"
     ]
   },
   "depends": {

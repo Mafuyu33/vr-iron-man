@@ -1,0 +1,29 @@
+{
+  "message.vr_iron_man.not_in_vr": "You must be in VR to use this!",
+  "message.vr_iron_man.need_ironman_armor": "You need iron man armor!",
+
+  "category.vr_iron_man": "MC VR Playground",
+
+  "entity.vr_iron_man.magic_missile": "Magic Missile",
+
+  "item.rocket_hands.durability":"Fuels",
+  "item.vr_iron_man.history_visualizer": "History Visualizer",
+  "item.vr_iron_man.history_visualizer.right_click": "Use this item to change which device is visualized.",
+  "item.vr_iron_man.history_visualizer.visualizing.0": "Mode set to controller 0 (the primary controller).",
+  "item.vr_iron_man.history_visualizer.visualizing.1": "Mode set to controller 1 (the secondary controller).",
+  "item.vr_iron_man.history_visualizer.visualizing.2": "Mode set to the HMD.",
+  "item.vr_iron_man.magic_missile": "Magic Missile",
+  "item.vr_iron_man.rocket_hands": "Rocket Hands",
+  "item.vr_iron_man.keyboardinator": "Keyboard-inator",
+  "item.vr_iron_man.debug_info": "Debug Info",
+  "item.vr_iron_man.flame_shooter_item": "FlameShooterItem",
+  "item.vr_iron_man.debug_info.server_title": "Server Data",
+  "item.vr_iron_man.debug_info.client_title": "Client Data",
+  "item.vr_iron_man.debug_info.not_in_vr": "Server thinks you are not in VR.",
+
+  "item.vr_iron_man.sapphire": "Sapphire",
+  "item.vr_iron_man.sapphire_helmet": "Sapphire Helmet",
+  "item.vr_iron_man.sapphire_chestplate": "Sapphire Chestplate",
+  "item.vr_iron_man.sapphire_leggings": "Sapphire Leggings",
+  "item.vr_iron_man.sapphire_boots": "Sapphire Boots"
+}

@@ -3,7 +3,7 @@ architectury {
 }
 
 loom {
-    accessWidenerPath = file("src/main/resources/mc_vr_playground.accesswidener")
+    accessWidenerPath = file("src/main/resources/vr_iron_man.accesswidener")
 }
 
 dependencies {
