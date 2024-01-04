@@ -39,10 +39,10 @@ public class RocketHands extends Item {
                 player.sendSystemMessage(Component.translatable("message.vr_iron_man.not_in_vr"));
             }
         }
-        //Fail if the player is NOT wear the Iron Man Armor.
-        if(!hasFullSuitOfArmorOn(player) || !hasCorrectArmorOn(ModArmorMaterials.SAPPHIRE,player)){
-                player.sendSystemMessage(Component.translatable("message.vr_iron_man.need_ironman_armor"));
-        }
+//        //Fail if the player is NOT wear the Iron Man Armor.
+//        if(!hasFullSuitOfArmorOn(player) || !hasCorrectArmorOn(ModArmorMaterials.SAPPHIRE,player)){
+//                player.sendSystemMessage(Component.translatable("message.vr_iron_man.need_ironman_armor"));
+//        }
         return InteractionResultHolder.consume(player.getItemInHand(interactionHand));
     }
 

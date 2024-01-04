@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "###",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "vr_iron_man:sapphire"
+    }
+  },
+  "result": {
+    "item": "vr_iron_man:sapphire_helmet"
+  },
+  "show_notification": true
+}
