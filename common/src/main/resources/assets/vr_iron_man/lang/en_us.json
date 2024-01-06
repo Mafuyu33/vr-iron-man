@@ -21,9 +21,9 @@
   "item.vr_iron_man.debug_info.client_title": "Client Data",
   "item.vr_iron_man.debug_info.not_in_vr": "Server thinks you are not in VR.",
 
-  "item.vr_iron_man.sapphire": "Sapphire",
-  "item.vr_iron_man.sapphire_helmet": "Sapphire Helmet",
-  "item.vr_iron_man.sapphire_chestplate": "Sapphire Chestplate",
-  "item.vr_iron_man.sapphire_leggings": "Sapphire Leggings",
-  "item.vr_iron_man.sapphire_boots": "Sapphire Boots"
+  "item.vr_iron_man.sapphire": "Vibranium",
+  "item.vr_iron_man.sapphire_helmet": "Ironman Helmet",
+  "item.vr_iron_man.sapphire_chestplate": "Ironman Chestplate",
+  "item.vr_iron_man.sapphire_leggings": "Ironman Leggings",
+  "item.vr_iron_man.sapphire_boots": "Ironman Boots"
 }

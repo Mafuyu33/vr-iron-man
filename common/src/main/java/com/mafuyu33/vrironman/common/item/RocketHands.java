@@ -109,7 +109,6 @@ public class RocketHands extends Item {
                         // Using the controller rotation below as the spread of the particle works well
                         controllerDir.x(), controllerDir.y(), controllerDir.z()
                     );
-
                 }
             }
             //Damage the item

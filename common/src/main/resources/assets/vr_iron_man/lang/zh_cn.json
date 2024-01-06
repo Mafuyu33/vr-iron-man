@@ -21,9 +21,9 @@
   "item.vr_iron_man.debug_info.client_title": "客户端数据",
   "item.vr_iron_man.debug_info.not_in_vr": "服务器认为你不在VR中。",
 
-  "item.vr_iron_man.sapphire": "蓝宝石",
-  "item.vr_iron_man.sapphire_helmet": "蓝宝石头盔",
-  "item.vr_iron_man.sapphire_chestplate": "蓝宝石胸甲",
-  "item.vr_iron_man.sapphire_leggings": "蓝宝石护腿",
-  "item.vr_iron_man.sapphire_boots": "蓝宝石靴子"
+  "item.vr_iron_man.sapphire": "振金",
+  "item.vr_iron_man.sapphire_helmet": "钢铁侠头盔",
+  "item.vr_iron_man.sapphire_chestplate": "钢铁侠胸甲",
+  "item.vr_iron_man.sapphire_leggings": "钢铁侠护腿",
+  "item.vr_iron_man.sapphire_boots": "钢铁侠靴子"
 }
