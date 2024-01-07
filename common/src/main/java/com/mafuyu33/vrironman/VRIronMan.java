@@ -1,6 +1,6 @@
 package com.mafuyu33.vrironman;
 
-import com.mafuyu33.vrironman.common.entity.ModEntities;
+//import com.mafuyu33.vrironman.common.entity.ModEntities;
 import com.mafuyu33.vrironman.common.item.ModItems;
 
 public class VRIronMan {
@@ -10,6 +10,6 @@ public class VRIronMan {
     public static void init() {
         ModItems.TABS.register();
         ModItems.ITEMS.register();
-        ModEntities.ENTITIES.register();
+//        ModEntities.ENTITIES.register();
     }
 }
